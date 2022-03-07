@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    color: #f9f9fa;
+}
+
+a:hover{
+    color:#f9f9fa;
+    transform: scale(1.1);
+
+
+}
+a:active{ 
+   text-decoration: none;
+   cursor: pointer;
+}
+.nav-item
+{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navbar_style
+{
+    background:#404a74;
+    color:#f9f9fa;
+}
+.Introduction
+{
+    padding-top: 10px;
+    margin: 10px;
+}
+.intro-heading
+{
+    background-color: #404a74;
+    height: 50px;
+    width: 250px;
+}
+.intro-heading h4{
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color:#f9f9fa;
+}
+.MissionandVision
+{
+    background-color:#e1eafc;
+}
+.mission-heading
+{
+   height:50px;
+   width: 250px;
+   background-color: #404a74;
+   margin-bottom: 30px;
+}
+.mission-heading h4{
+   
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color: #f9f9fa;
+}
+
+.vision-heading
+{
+   height:50px;
+   width: 250px;
+   background-color: #404a74;
+   margin-bottom: 30px;
+}
+.vision-heading h4{
+   
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color: #f9f9fa;
+}
+
+.key-strength-heading
+{
+   height:50px;
+   width: 250px;
+   background-color: #404a74;
+   margin-bottom: 30px;
+}
+.key-strength-heading h4{
+   
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color: #f9f9fa;
+}
+.blue-circle
+{
+    border-radius: 50%;
+}
+.ContactandReach
+{
+    background-color:#e1eafc;
+    padding-right:200px;
+    padding-left: 200px;
+    
+
+}
+.contact-heading{
+
+   height:50px;
+   width: 250px;
+   background-color: #404a74;
+   margin-bottom: 30px;
+}
+.contact-heading h4{
+    
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color: #f9f9fa;
+}
+.contact-content{
+    text-align: center;
+}
+.contact-btn{
+    background-color: #404a74;
+    color:#f9f9fa;
+    margin-top: 10px;;
+    padding-top:5px;
+    border: none;
+    border-radius:25px;
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+
+}
+.ContactandReach a:hover{
+
+    background:#f9f9fa;
+    color:#404a74;
+    cursor: pointer;
+    border: #404a74 solid 2px;
+
+}
+.reach-heading{
+
+   height:50px;
+   width: 250px;
+   background-color:#404a74;
+
+}
+.reach-heading h4{
+    margin-top:10px;
+    text-align: center;
+    vertical-align: center;
+    color: #f9f9fa;
+}
+.reach-content
+{
+    padding-top:10px;
+    margin-top:30px;
+
+}
+.reach-content ul{
+    list-style: none;
+}
+footer{
+    text-align: center;
+    background-color: #404a74;
+    color: #f9f9fa;
+    padding-right:10px;
+    
+}
+footer p{
+    padding-top:10px;
+}
+.footer-notes
+{ 
+    display:inline-block;
+    clear:both;
+    padding-top:10px;
+    text-align: center;
+    padding-left: 100px;
+    margin-left:100px;
+
+}
+.icons{
+   
+    float:right;
+    height: auto;
+    overflow:hidden;
+}
+.icons ul{
+    list-style: none;
+
+
+}
+.icons li{
+ 
+    float: right;
+    padding:10px;
+
+}
+
+.icons li a
+{
+    display: block;
+    color: #f9f9fa;
+  text-align: center;
+  text-decoration: none;
+}
+.icons li a:hover{
+
+    transform: scale(1.2);
+}

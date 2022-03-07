@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=DM+Mono:wght@300&display=swap');
+
+body{
+
+
+    margin:0;
+    padding:0;
+    background :#708d00;
+    font-family: 'Balsamiq Sans', cursive;
+     font-family: 'DM Mono', monospace;
+}
+
+.card
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 300px;
+    height: 400px;
+    background:#fff;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%) perspective(2000px);
+    box-shadow:inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.card:hover
+{
+transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+box-shadow:inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,0.5);
+
+}
+.card::before
+{
+    content:'';
+    position: absolute;
+    top:-5px;
+    left:0;
+    width: 100%;
+    height:5px;
+    background:#475b02;
+    transform-origin: bottom;
+    transform:skewX(-45deg);
+}
+.card::after{
+
+    content:'';
+    position: absolute;
+    top:0px;
+    right:-5px;
+    height:100px;
+    background:#7EA301;
+    transform-origin:left;
+    transform: skewY(-45deg);
+    
+
+
+
+}
+.card .imgbox 
+{
+  width: 100%;
+  height:100%;
+  position: relative;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s cubic-bezier(.15,1.69,.84,.58);
+
+}
+.card:hover .imgbox
+{
+    transform:rotateY(-135deg);
+}
+.card .details
+{
+    position:absolute;
+    padding:20px;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    z-index: -1;
+
+}
